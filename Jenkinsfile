@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build your console application using .NET CLI
-                sh 'dotnet build'
+                bat 'dotnet build'
             }
         }
     }
